@@ -6,11 +6,13 @@ altura = 1.80
 pais = 'España'
 
 # Acceder a las variables
+print('Valores iniciales:')
 print(f'Edad: {edad}')
 print(f'Altura: {altura}')
 print(f'Pais: {pais}')
 
 # Modificar el valor de una variable
+print('Valores modificados:')
 edad = 49
 altura = 1.81
 print(f'Edad: {edad}')
@@ -21,5 +23,4 @@ edad = 'Cuarentainueve'
 print(f'Edad: {edad}')
 
 # Si accedemos a una variable no declarada dará error
-telefono = 999999999
 print(f'Telefono: {telefono}')
